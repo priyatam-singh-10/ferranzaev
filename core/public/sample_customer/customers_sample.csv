@@ -1,0 +1,3 @@
+ID,First Name,Last Name,Email,GST Number,MSME Number,Phone,Password,Address1,Address2,ZipCode,City,Country,Company Name,Type,Company Display Name,Email Verify,State ID
+1,John,Doe,john.doe@example.com,GSTIN1234ABCDE,MSME5678XYZ,9876543210,123456,12 MG Road,Apt 4,560001,Bengaluru,India,JD Pvt Ltd,0,JD Enterprises,1,1
+2,Jane,Smith,jane.smith@example.com,GSTIN9876PQRS,MSME1234LMN,9123456780,,45 Link Road,Suite 5,400001,Mumbai,India,Smith Traders,1,Smith Co,0,2

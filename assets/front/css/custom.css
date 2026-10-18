@@ -1,0 +1,173 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+:root {
+    --theme-color: #7BB932;
+}
+
+.text-color{
+    color: #7BB932;
+}
+.bg-color{
+    background-color: #7BB932;
+}
+.border-color{
+    border-color: #7BB932;
+}
+.btn-color{
+    background-color: #7BB932;
+}
+.py-50{
+    padding: 50px 0;
+}
+
+
+.landingMenu{
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+/* about us section */
+.commonHeading {
+    margin-bottom: 25px;
+}
+.commonHeading h5 {
+    font-size: 16px;
+    gap: 8px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+.commonHeading h5 svg{
+    height: 18px;
+}
+.commonHeading h2 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #111111;
+}
+.scootersConsumableImg {
+    position: relative;
+    padding: 10px 0 10px 10px;
+    z-index: 1;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+.scootersConsumableImg::after {
+    content: "";
+    background-color: var(--theme-color);
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 70%;
+    height: 100%;
+    z-index: -1;
+}
+.scootersConsumableImg2 {
+    padding: 10px 10px 10px 0;
+    position: relative;
+}
+.scootersConsumableImg2::after {
+    content: "";
+    background-color: #102C35;
+    top: 0;
+    right: 0;
+    position: absolute;
+    width: 70%;
+    height: 100%;
+    z-index: -1;
+}
+
+.scootersConsumableContent .evCommonInnerPageHeading {
+    margin-top: 20px;
+}
+.evCommonInnerPageHeading p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #858585;
+}
+
+
+/* achievment section */
+.achivementsItem {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    padding: 30px;
+    border-radius: 6px;
+    transition: 0.3s linear;
+}
+.achivementsItem:hover {
+    box-shadow: rgba(123, 185, 50, 0.05) 0px 6px 24px 0px, rgba(123, 185, 50, 0.08) 0px 0px 0px 1px;
+}
+.achivementsIcon {
+    margin-bottom: 15px;
+}
+.achivementsItem .achivementsIcon span{
+    border: 0.5px solid var(--theme-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+.achivementsIcon img{
+    width:50px;
+}
+.achivementsItem .achivementsContent h4{
+    font-size: 40px;
+}
+.achivementsItem .achivementsContent p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #111111;
+}
+.achivementsItem:hover h4, 
+.achivementsItem:hover p{
+    color:var(--theme-color)
+}
+
+
+.widget-links ul > li::before {
+    content: "\f054" !important;
+    font-family: "Font Awesome 6 Free" !important;
+    font-weight: 900;
+    font-size: 12px !important;
+    transform: rotate(0deg) !important;
+    top: 3px !important;
+}
+.track-order-link i {
+    top: 0 !important;
+}
+.owl-carousel .owl-prev::before {
+    content: "\f053" !important; 
+    font-family: "Font Awesome 6 Free" !important;
+    font-weight: 900;
+    font-size: 20px; 
+    display: inline-block;
+ }
+.owl-carousel .owl-next::before {
+    content: "\f054" !important;
+    font-family: "Font Awesome 6 Free" !important;
+    font-weight: 900;
+    font-size: 20px;
+    display: inline-block;
+ }
+.shop-link{
+    background: #fff;
+    padding: 4px 12px;
+    border-radius: 12px;
+    transition: 0.3s linear;
+    font-weight: 600 !important;
+}
+.shop-link:hover{
+    color:var(--theme-color) !important
+}
+.fw-semibold{
+    font-weight: 600;
+}
